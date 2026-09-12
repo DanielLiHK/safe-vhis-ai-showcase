@@ -1,21 +1,13 @@
 {
   "schema_version": 1,
-  "release": "v0.1.1",
+  "release": "v0.1.2",
   "generated_on": "2026-09-12",
   "languages": [
     "en",
     "zh-HK"
   ],
   "private_repository_remains_canonical": true,
-  "canonical_private_commit_sha": "07abc6d405b305a95d9f1673f437c29098fb1f79",
-  "bilingual_audit": {
-    "languages": [
-      "English",
-      "Traditional Chinese (zh-HK)"
-    ],
-    "scope": "all human-facing explanations and research annotations",
-    "verified_on": "2026-09-12"
-  },
+  "canonical_private_commit_sha": "a65ecf74e353931976ba27d103221d5c67008611",
   "source_document": {
     "publisher": "VHIS Office, Health Bureau, HKSAR Government",
     "version": "2022-07-01",
@@ -27,11 +19,10 @@
     ".gitignore": "sha256:de07381f6caa0e45a413d45a0890d5d5dee50e4651d5cd15621cdb89856a3414",
     "LICENSE.md": "sha256:67dcdba4286a815cdef7721c7d3dbafa4718299cc4c13c59ba6f822d827ac2b4",
     "PUBLICATION_SCOPE.md": "sha256:ef4cf81fdafbfd473a9997c16aa39fdecc22ffd709125020302c6ffa3d9f5009",
-    "README.md": "sha256:a489a652c3fd8418a9a0de08e071cf67d2ceffcb19603f1c0b2a35170c834b6c",
+    "README.md": "sha256:6f8459e6dafef7f8786edb8222ae66be854b9fe4c639a1847dd1363ad84b8c26",
     "SECURITY.md": "sha256:0bd37fc071289a86d8b2ef95ea3070d1ce4d59d2d29544a0876ff599162aab2d",
     "data/sources.json": "sha256:3717cef2dd8c3926976c48232bbe116a1a50b40ea854903997daac196021f7b2",
     "data/test_cases.json": "sha256:b790094384b7d929aaff0cca33de9cbaaa69661ea85556bce0fe681c7d11a837",
-    "docs/BILINGUAL_COVERAGE.md": "sha256:4d8e8e1d661bd805e291645dc5a4b98bcb1dc3ad3a884fd8188e184761b10818",
     "docs/FAILURE_CASES.md": "sha256:9800cf04ad760e8c235afd51428768c12900576dcbe27f3a461c667bcc23a8de",
     "docs/HUMAN_OVERSIGHT_SUMMARY.md": "sha256:18fd9d95e234a3b7968a51c7ab10ebecf8ccb6448585fd771d987e5e6229cf53",
     "docs/METHODOLOGY.md": "sha256:2bdde2b8af856df0ef76235295892cc99bbeb7ef47cc460e84888937484c6a73",
