@@ -68,6 +68,7 @@ All 72 outputs were human-reviewed. High-risk cases were adjudicated individuall
 - [Human Evaluation / 人手評估](results/HUMAN_EVALUATION.md)
 - [Failure Cases / 失敗案例](docs/FAILURE_CASES.md)
 - [Source Provenance / 來源追溯](docs/SOURCE_PROVENANCE.md)
+- [Bilingual Coverage / 雙語覆蓋](docs/BILINGUAL_COVERAGE.md)
 - [Publication Scope / 發布範圍](PUBLICATION_SCOPE.md)
 
 ## Reproduce / 重現

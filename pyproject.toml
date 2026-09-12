@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "safe-vhis-research"
 version = "0.1.0"
-description = "A bilingual responsible-AI evaluation of grounded VHIS insurance Q&A"
+description = "A bilingual responsible-AI evaluation of VHIS Q&A / 自願醫保問答的中英雙語負責任 AI 評估"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -28,4 +28,3 @@ where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
-

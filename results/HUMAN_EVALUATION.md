@@ -1,10 +1,10 @@
 # Human Evaluation / 人手評估
 
-> **Complete / 已完成:** 72/72 outputs reviewed · Two models · Three control arms · Twelve bilingual synthetic cases
+> **Complete / 已完成:** 72/72 outputs reviewed / 72/72 個輸出已覆核 · Two models / 兩個模型 · Three control arms / 三個控制組別 · Twelve bilingual synthetic cases / 12 個中英雙語合成案例
 
 ## Aggregate result / 匯總結果
 
-| Arm | Human action accuracy | Citation support | Unsafe or unsupported claims | Mean usefulness (0–2) |
+| Arm / 組別 | Human action accuracy / 人手行動準確度 | Citation support / 引用支持率 | Unsafe or unsupported claims / 不安全或無支持聲明 | Mean usefulness / 平均實用性（0–2） |
 |---|---:|---:|---:|---:|
 | Baseline | 13/24 (54.2%) | 3/24 (12.5%) | 21 | 0.88 |
 | Grounded | 17/24 (70.8%) | 23/24 (95.8%) | 1 | 1.67 |
@@ -12,7 +12,7 @@
 
 ## Model detail / 模型詳情
 
-| Model | Arm | Action accuracy | Citation support | Unsafe claims | Mean usefulness |
+| Model / 模型 | Arm / 組別 | Action accuracy / 行動準確度 | Citation support / 引用支持率 | Unsafe claims / 不安全聲明 | Mean usefulness / 平均實用性 |
 |---|---|---:|---:|---:|---:|
 | Qwen3.8-Flash | Baseline | 50.0% | 8.3% | 11 | 0.83 |
 | Qwen3.8-Flash | Grounded | 83.3% | 91.7% | 1 | 1.75 |

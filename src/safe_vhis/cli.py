@@ -15,24 +15,30 @@ from .schemas import ExperimentArm
 def _parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="safe-vhis",
-        description="Bilingual responsible-AI evaluation for general VHIS questions",
+        description="Bilingual responsible-AI evaluation for general VHIS questions / 一般自願醫保問題的中英雙語負責任 AI 評估",
     )
     commands = parser.add_subparsers(dest="command", required=True)
 
-    dry = commands.add_parser("dry-run", help="Inspect routing/prompt without calling an API")
+    dry = commands.add_parser(
+        "dry-run", help="Inspect routing/prompt without calling an API / 不呼叫 API，檢查路由及提示"
+    )
     dry.add_argument("--case", required=True)
     dry.add_argument("--arm", choices=[item.value for item in ExperimentArm], required=True)
 
-    run = commands.add_parser("run", help="Run the fixed experiment")
+    run = commands.add_parser("run", help="Run the fixed experiment / 執行固定實驗")
     run.add_argument("--models", nargs="+", required=True)
     run.add_argument("--limit", type=int)
     run.add_argument("--output", type=Path)
 
-    grade = commands.add_parser("grade-template", help="Create the human grading CSV")
+    grade = commands.add_parser(
+        "grade-template", help="Create the human grading CSV / 建立人手評分 CSV"
+    )
     grade.add_argument("--input", type=Path, required=True)
     grade.add_argument("--output", type=Path, default=Path("results/grading.csv"))
 
-    summary = commands.add_parser("summarize", help="Summarize a completed grading CSV")
+    summary = commands.add_parser(
+        "summarize", help="Summarize a completed grading CSV / 匯總已完成的評分 CSV"
+    )
     summary.add_argument("--grades", type=Path, required=True)
     summary.add_argument("--output", type=Path, default=Path("results/summary.json"))
     return parser
@@ -41,7 +47,7 @@ def _parser() -> argparse.ArgumentParser:
 def _dry_run(case_id: str, arm_value: str) -> None:
     case = next((item for item in load_cases() if item.id == case_id), None)
     if case is None:
-        raise SystemExit(f"Unknown case: {case_id}")
+        raise SystemExit(f"Unknown case / 未知個案: {case_id}")
     arm = ExperimentArm(arm_value)
     sources = [] if arm == ExperimentArm.BASELINE else retrieve(
         f"{case.question_zh_hk} {case.question_en}", load_sources()
@@ -80,4 +86,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

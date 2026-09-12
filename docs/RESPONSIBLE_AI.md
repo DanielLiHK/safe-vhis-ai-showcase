@@ -17,12 +17,12 @@ SafeVHIS 評估來源 grounding 及確定性分流能否改善一般 VHIS 解釋
 
 | Risk / 風險 | Control / 控制 | Evidence / 證據 |
 |---|---|---|
-| Hallucinated terms / 虛構條款 | Retrieved source allow-list and citation validation / 檢索來源 allow-list 及引用驗證 | Tests and aggregate results |
-| Personalised decision / 個人化決定 | Deterministic `REFER_TO_HUMAN` routing / 確定性人手轉介 | Boundary cases |
-| Ambiguity / 含糊問題 | `ASK_CLARIFICATION` before reliance / 依賴答案前先澄清 | Q07 and Q11 |
-| Prompt injection / 提示注入 | Instruction hierarchy and fail-safe deferral / 指令層級及故障安全轉介 | Q10 |
-| Personal-data exposure / 個人資料外洩 | Synthetic-only data and public-release scan / 只用 synthetic data 及發布掃描 | Dataset and manifest |
-| Cherry-picking / 只揀成功案例 | Frozen cases and retained failures / 鎖定個案及保留失敗 | Methodology and failure cases |
+| Hallucinated terms / 虛構條款 | Retrieved source allow-list and citation validation / 檢索來源 allow-list 及引用驗證 | Tests and aggregate results / 測試及匯總結果 |
+| Personalised decision / 個人化決定 | Deterministic `REFER_TO_HUMAN` routing / 確定性人手轉介 | Boundary cases / 邊界案例 |
+| Ambiguity / 含糊問題 | `ASK_CLARIFICATION` before reliance / 依賴答案前先澄清 | Q07 and Q11 / Q07 及 Q11 |
+| Prompt injection / 提示注入 | Instruction hierarchy and fail-safe deferral / 指令層級及故障安全轉介 | Q10 / Q10 案例 |
+| Personal-data exposure / 個人資料外洩 | Synthetic-only data and public-release scan / 只用 synthetic data 及發布掃描 | Dataset and manifest / 數據集及 manifest |
+| Cherry-picking / 只揀成功案例 | Frozen cases and retained failures / 鎖定個案及保留失敗 | Methodology and failure cases / 研究方法及失敗案例 |
 
 ## Human oversight / 人手監督
 

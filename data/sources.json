@@ -3,16 +3,19 @@
     "title_zh_hk": "自願醫保計劃認可產品保單範本",
     "title_en": "VHIS Certified Plan Policy Template",
     "publisher": "VHIS Office, Health Bureau, HKSAR Government",
+    "publisher_zh_hk": "香港特別行政區政府醫務衞生局自願醫保計劃辦事處",
     "version": "2022-07-01",
     "url": "https://www.vhis.gov.hk/doc/tc/information_centre/c_standard_plan_template.pdf",
     "retrieved_on": "2026-09-12",
-    "note": "Paraphrased research notes only; verify the current official document before publication."
+    "note": "Paraphrased research notes only; verify the current official document before publication.",
+    "note_zh_hk": "只屬改寫後的研究筆記；發布前須核實最新官方文件。"
   },
   "chunks": [
     {
       "id": "VHIS-P01-VOLUNTARY",
       "pdf_page": 1,
       "section": "Introduction",
+      "section_zh_hk": "簡介",
       "text_zh_hk": "自願醫保係香港政府就個人償款住院保險產品推出的政策措施，保險公司及消費者都係自願參與。",
       "text_en": "VHIS is a Hong Kong Government policy initiative for individual indemnity hospital insurance; participation by insurers and consumers is voluntary.",
       "keywords": ["自願", "強制", "compulsory", "mandatory", "voluntary", "participation"]
@@ -21,6 +24,7 @@
       "id": "VHIS-P01-RENEWAL",
       "pdf_page": 1,
       "section": "Introduction",
+      "section_zh_hk": "簡介",
       "text_zh_hk": "標準計劃包括不論受保人健康狀況有否改變，均保證續保至100歲。",
       "text_en": "The Standard Plan includes guaranteed renewal to age 100 regardless of changes in the insured person's health condition.",
       "keywords": ["續保", "100歲", "renew", "renewal", "age 100"]
@@ -29,6 +33,7 @@
       "id": "VHIS-P01-LIFETIME-LIMIT",
       "pdf_page": 1,
       "section": "Introduction",
+      "section_zh_hk": "簡介",
       "text_zh_hk": "標準計劃不設終生保障限額。",
       "text_en": "The Standard Plan has no lifetime benefit limit.",
       "keywords": ["終生", "保障限額", "lifetime", "benefit limit", "cap"]
@@ -37,6 +42,7 @@
       "id": "VHIS-P01-UNKNOWN-PREEXISTING",
       "pdf_page": 1,
       "section": "Introduction",
+      "section_zh_hk": "簡介",
       "text_zh_hk": "標準計劃保障涵蓋投保時未知的已有病症；呢個概括說明唔等於任何個人索償保證。",
       "text_en": "The Standard Plan covers pre-existing conditions unknown at application; this general statement is not a guarantee for any individual claim.",
       "keywords": ["已有病症", "未知", "投保", "pre-existing", "unknown", "application"]
@@ -45,6 +51,7 @@
       "id": "VHIS-P01-DAY-CASE",
       "pdf_page": 1,
       "section": "Introduction",
+      "section_zh_hk": "簡介",
       "text_zh_hk": "標準計劃涵蓋日間手術，包括按醫療需要進行的內窺鏡檢查。",
       "text_en": "The Standard Plan covers day case procedures, including endoscopy performed when medically necessary.",
       "keywords": ["日間手術", "內窺鏡", "醫療需要", "day case", "endoscopy", "medically necessary"]
@@ -53,6 +60,7 @@
       "id": "VHIS-P04-PRODUCT-DIFFERENCES",
       "pdf_page": 4,
       "section": "Reference notes",
+      "section_zh_hk": "參考說明",
       "text_zh_hk": "認可產品可提供高於或有別於最低要求的條款及保障，所以具體答案仍須查閱個別保單。",
       "text_en": "Certified Plans may provide terms and benefits above or different from the minimum requirements, so product-specific questions require the actual policy.",
       "keywords": ["個別保單", "靈活計劃", "產品", "最低要求", "specific policy", "flexible plan", "product"]
@@ -61,6 +69,7 @@
       "id": "VHIS-P06-REIMBURSEMENT",
       "pdf_page": 6,
       "section": "Insurance provisions",
+      "section_zh_hk": "保險條款",
       "text_zh_hk": "賠償按合資格費用的實際金額實報實銷，並受最高賠償額及分擔費用安排（如有）規限。",
       "text_en": "Benefits reimburse the actual amount of eligible expenses, subject to maximum benefit limits and any cost-sharing arrangement.",
       "keywords": ["實報實銷", "合資格費用", "最高賠償額", "分擔費用", "reimbursement", "eligible expenses", "cost sharing"]
@@ -69,10 +78,10 @@
       "id": "VHIS-P08-COOLING-OFF",
       "pdf_page": 8,
       "section": "General conditions",
+      "section_zh_hk": "一般條款",
       "text_zh_hk": "保單範本規定冷靜期日數不得少於21日；實際程序及條件須查閱個別保單文件。",
       "text_en": "The policy template requires a cooling-off period of at least 21 days; the actual procedure and conditions must be checked in the specific policy documents.",
       "keywords": ["冷靜期", "21日", "取消", "cooling-off", "21 days", "cancel"]
     }
   ]
 }
-

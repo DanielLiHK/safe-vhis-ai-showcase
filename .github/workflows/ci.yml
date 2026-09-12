@@ -1,4 +1,4 @@
-name: CI
+name: CI / 持續整合
 
 on:
   push:
@@ -9,6 +9,7 @@ permissions:
 
 jobs:
   test:
+    name: Tests and secret scan / 測試及機密掃描
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -16,11 +17,11 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - name: Install
+      - name: Install / 安裝
         run: python -m pip install -e '.[dev]'
-      - name: Test
+      - name: Test / 測試
         run: pytest
-      - name: Check tracked files for obvious secrets
+      - name: Check tracked files for obvious secrets / 檢查已追蹤檔案有冇明顯機密
         run: |
           if git grep -nE '(sk-[A-Za-z0-9]{20,}|DASHSCOPE_API_KEY=[^[:space:]]+)' -- \
             ':!*.example' ':!.github/workflows/ci.yml'; then
