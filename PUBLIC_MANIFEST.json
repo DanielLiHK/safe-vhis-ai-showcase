@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "release": "v0.1.0-candidate",
+  "generated_on": "2026-09-12",
+  "languages": [
+    "en",
+    "zh-HK"
+  ],
+  "private_repository_remains_canonical": true,
+  "canonical_private_commit_sha": "22b84ecca57395633df385d7a4da5d1c02c21895",
+  "source_document": {
+    "publisher": "VHIS Office, Health Bureau, HKSAR Government",
+    "version": "2022-07-01",
+    "official_url_reverified_on": "2026-09-12"
+  },
+  "files": {
+    ".env.example": "sha256:2114599fa2fcffe84d4cb4839950ff34c98a59906f28c46b1bc5c6bc45b8d981",
+    ".github/workflows/ci.yml": "sha256:7a1b1a6089ee67bbb34bf6f591d5392fc3541d5f5ce77bee91cef1acaae8cb19",
+    ".gitignore": "sha256:de07381f6caa0e45a413d45a0890d5d5dee50e4651d5cd15621cdb89856a3414",
+    "LICENSE.md": "sha256:67dcdba4286a815cdef7721c7d3dbafa4718299cc4c13c59ba6f822d827ac2b4",
+    "PUBLICATION_SCOPE.md": "sha256:ef4cf81fdafbfd473a9997c16aa39fdecc22ffd709125020302c6ffa3d9f5009",
+    "README.md": "sha256:6f8459e6dafef7f8786edb8222ae66be854b9fe4c639a1847dd1363ad84b8c26",
+    "SECURITY.md": "sha256:0bd37fc071289a86d8b2ef95ea3070d1ce4d59d2d29544a0876ff599162aab2d",
+    "data/sources.json": "sha256:221d1cd59e4f0cf9553b0db4799ae8c970032e23276a795232c9819fd31958a2",
+    "data/test_cases.json": "sha256:871f7176d39b97a369c6fb0054e88707983d5c2e5890fa6219c51622fe8603b9",
+    "docs/FAILURE_CASES.md": "sha256:49e1f15fe5a4dc30c38382694a7b9f058a5992bef48aa3efc1f8006e7620058a",
+    "docs/HUMAN_OVERSIGHT_SUMMARY.md": "sha256:18fd9d95e234a3b7968a51c7ab10ebecf8ccb6448585fd771d987e5e6229cf53",
+    "docs/METHODOLOGY.md": "sha256:3c544ef96579fa7562b8cd4fa044171f69c62526571c6223a900e14c94cd1a01",
+    "docs/RESPONSIBLE_AI.md": "sha256:e7171a5b5f28cb97b46cdb05a8dcc3036e117cb181b5bb23714aa7a55c306456",
+    "docs/SOURCE_PROVENANCE.md": "sha256:2ee9a7eb806bef59936cb70060078b5680436d0bd05e763b74287feb44f30ee0",
+    "pyproject.toml": "sha256:ac1747c123623b2349917dd3f5ad98e49b6dc9a2384ec010da49966779ec9b21",
+    "results/HUMAN_EVALUATION.md": "sha256:40076088558e626c78e35f97b02f2e624840b8a290f979ae3589afa0e2917979",
+    "results/human_summary.json": "sha256:84cba4f1d58f78f5464219a788e1a353527c9ed8869913fec477ed436f508303",
+    "src/safe_vhis/__init__.py": "sha256:28032337644ded880afa7573889e7847d40d0354178110a3f9506d023149c946",
+    "src/safe_vhis/cli.py": "sha256:c6a8ff1caa7c8137301974f4a075d8b013778341c3691a96bc43f9f81694979b",
+    "src/safe_vhis/config.py": "sha256:3ae7260d6df092e919cac6d4d7112ba21d3abc4dc99ec6b48955fdf55d432217",
+    "src/safe_vhis/evaluation.py": "sha256:c03f68a29d52ce9b1b08e4b4595d217de8c03f51ff8c1939795ab5f54f302622",
+    "src/safe_vhis/guardrails.py": "sha256:ab10e6a44719e4ac8fb65d7012424e8eb831a7f1c21aded2fc24423e35aa58c7",
+    "src/safe_vhis/knowledge.py": "sha256:089c4322bed3e16c34365c2cba45310cf72105381bd4993ae858bda70e014715",
+    "src/safe_vhis/prompts.py": "sha256:b01f8f81511dda5d4742a5bdbfaa804871531e08a94ad8d78a03795129bf552a",
+    "src/safe_vhis/provider.py": "sha256:155a773abe04cc4066ac0d50bb76076ac86856930118cc769bdf716827589658",
+    "src/safe_vhis/runner.py": "sha256:513b0cb063477b523d505911dfce3e19314e2bf8e724fa2d62bdccfff58f036b",
+    "src/safe_vhis/schemas.py": "sha256:77c210e259438a2661abddd97002e05c12408619a47198904d543d7622121709",
+    "tests/test_config.py": "sha256:90b1b5d9f62ff0e2a66030e2fe5e471be19f00dc25ea4fc50efebe87fc34f164",
+    "tests/test_guardrails.py": "sha256:531c22ddf18b2bbbdf633e68ec2cd0db30a3baaa944baf3a2277e695093b1fb1",
+    "tests/test_knowledge.py": "sha256:c421cb0ff5223e38455ebb4f073996285b6a409470f1e13cffed144282f7ddaf",
+    "tests/test_provider.py": "sha256:c13d3e1904b079311a34953e3d5e0ecadd820dcffc37913b074882c40feccd59"
+  }
+}

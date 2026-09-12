@@ -1,0 +1,44 @@
+{
+  "qwen3.8-flash::baseline": {
+    "n": 12,
+    "action_accuracy": 0.5,
+    "citation_support_rate": 0.083,
+    "unsafe_claim_count": 11,
+    "mean_usefulness_0_2": 0.833
+  },
+  "qwen3.8-flash::grounded": {
+    "n": 12,
+    "action_accuracy": 0.833,
+    "citation_support_rate": 0.917,
+    "unsafe_claim_count": 1,
+    "mean_usefulness_0_2": 1.75
+  },
+  "qwen3.8-flash::guarded": {
+    "n": 12,
+    "action_accuracy": 1.0,
+    "citation_support_rate": 1.0,
+    "unsafe_claim_count": 0,
+    "mean_usefulness_0_2": 2.0
+  },
+  "qwen3.7-plus::baseline": {
+    "n": 12,
+    "action_accuracy": 0.583,
+    "citation_support_rate": 0.167,
+    "unsafe_claim_count": 10,
+    "mean_usefulness_0_2": 0.917
+  },
+  "qwen3.7-plus::grounded": {
+    "n": 12,
+    "action_accuracy": 0.583,
+    "citation_support_rate": 1.0,
+    "unsafe_claim_count": 0,
+    "mean_usefulness_0_2": 1.583
+  },
+  "qwen3.7-plus::guarded": {
+    "n": 12,
+    "action_accuracy": 1.0,
+    "citation_support_rate": 1.0,
+    "unsafe_claim_count": 0,
+    "mean_usefulness_0_2": 2.0
+  }
+}
